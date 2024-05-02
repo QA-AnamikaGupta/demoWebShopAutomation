@@ -1,0 +1,15 @@
+{
+  "name": "demowebshopproject",
+  "version": "1.0.0",
+  "description": "Automate the test script for the key functionalities of the Demo Web Shop website. SupplyHouse.com QA Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anamika Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
