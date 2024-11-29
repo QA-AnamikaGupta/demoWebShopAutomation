@@ -15,6 +15,8 @@ describe('Log in user Purchase flow', function () {
     it('select a product', () => {
 
         //Visit the URL with the environment variable by BerforeEach in the e2e.js file
+        cy.url().should('include','demowebshop')
+        cy.title().should('include','Demo Web Shop')
         cy.Userlogin(testData.email, testData.password) //Custom command for the User login
         productListPage.selectYourProduct()
         productListPage.selectAttributeOfProduct()
